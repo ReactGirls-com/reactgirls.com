@@ -23,6 +23,7 @@ import React from 'react';
 
 function Mentoring({showNewsletter}) {
     showNewsletter = false; 
+    
     return (
         <div>
             <Hero {...heroObjTwo} />
