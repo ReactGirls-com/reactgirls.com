@@ -16,11 +16,11 @@ import {
     TitlePrice
 } from './Price.elements';
 
-function Price({mainPriceTitle, data, price, form, showLogInButton, showNewsletter }) {
+function Price({mainPriceTitle, data, price, form, showLogInButton, showNewsletter, showBorderBottom }) {
     return (
         <Container id='price'>
             <Wrapper>
-                <PriceWrapper showNewsletter={showNewsletter}>
+                <PriceWrapper showBorderBottom={showBorderBottom}>
                     <TitlePrice>{mainPriceTitle}</TitlePrice>
                     <PriceRectangle>
                         <PriceArea>

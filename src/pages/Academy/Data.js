@@ -10,6 +10,7 @@ export const heroObjThree = {
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
     showNewsletter: true,
     showLogInButton: false,
+    
 };
 
 /* switch between Newsletter and LogInButton on Price Container of Academy page*/
@@ -19,6 +20,7 @@ export const acadPrice = {
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
     showNewsletter: true,
     showLogInButton: false,
+    showBorderBottom: true,
 }
 
 export const infoObjTwo = {

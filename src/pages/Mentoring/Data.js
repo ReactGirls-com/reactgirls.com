@@ -10,6 +10,7 @@ export const heroObjTwo = {
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform",
     showNewsletter: true,
     showLogInButton: false,
+   
 };
 
 /* switch between Newsletter and LogInButton on Price Container of Mentoring page*/
@@ -19,6 +20,7 @@ export const mentPrice = {
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform",
     showNewsletter: true,
     showLogInButton: false,
+    showBorderBottom: false,
 }
 
 export const infoObjOne = {
