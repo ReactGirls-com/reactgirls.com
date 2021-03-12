@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import { useTheme, useThemeUpdate } from '../../ThemeContext';
+import { Link } from 'react-router-dom';
 import { 
     NavLogo,
     NavMenu,
@@ -59,7 +60,9 @@ function Navbar() {
                 <Wrapper>
                     
                     <NavWrapper className={navLogo ? 'active' : ''} > 
-                        <NavLogo onClick={toggleHome} smooth={true} src="/images/logo-blue.svg" className={navLogo ? 'active' : ''} />
+                        <Link exact to='/'>
+                        <NavLogo onClick={toggleHome} src="/images/logo-blue.svg" className={navLogo ? 'active' : ''} />
+                        </Link>
                         <MobileIcon onClick={handleClick} >
                             {click ? <MobileIconClose src="/images/icons/close.svg"/> : <MobileIconMenu src="/images/icons/menu.svg"/> }
                         </MobileIcon>
