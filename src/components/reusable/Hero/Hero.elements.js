@@ -103,7 +103,7 @@ export const HeroImg = styled.img`
     height: 450px;
     width: auto;
     position: relative;
-    right: 130px;
+    right: 50px;
 
     @media only screen and (max-width: 319px) { 
         height: 240px; 
