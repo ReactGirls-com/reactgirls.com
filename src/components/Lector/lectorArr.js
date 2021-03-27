@@ -18,7 +18,7 @@ const lectorArr = [
     {
         lectorImg: "/images/lectors/terezav.png",
         lectorName: "Tereza Vaňková",
-        lectorJob: <><Founder>ReactGirls Founder </Founder> Front-End Developer </>,
+        lectorJob: <>ReactGirls Founder <br/> Front-End Developer </>,
         lectorCompany: "Avast",
         lectorLinkedIn: "https://www.linkedin.com/in/tereza-vankova",
     },
@@ -131,7 +131,7 @@ const lectorArr = [
         lectorImg: "/images/lectors/kamilam.jpg",
         lectorName: "Kamila Macháčová",
         lectorJob: "HR",
-        lectorCompany: "",
+        lectorCompany: " ",
         lectorLinkedIn: "https://www.linkedin.com/in/kamilamach%C3%A1%C4%8Dov%C3%A1/",
     },
     {

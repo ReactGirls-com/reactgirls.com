@@ -126,6 +126,10 @@ export const LectorJob = styled(Paragraph)`
     color: ${colors.darkGrey};
     margin: 5px auto;
     width: 85%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media only screen and (max-width: ${breakpoints.tablet}) {
         width: 100%;
@@ -139,6 +143,7 @@ export const LectorCompany = styled(Paragraph)`
     color: #8C8C8C;
     margin: 5px auto;
     width: 85%;
+    height: 23px;
 
     @media only screen and (max-width: ${breakpoints.tablet}) {
         width: 100%;
