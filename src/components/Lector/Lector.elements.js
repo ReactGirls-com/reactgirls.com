@@ -23,7 +23,22 @@ export const SliderLector = styled(Slider)`
     }
 `;
 
-export const CardsContainer = styled.div`
+export const CardsContainerDesktop = styled.div`
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 100px 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1350px;
+    //border: 1px solid red;
+
+    @media only screen and (max-width: 1471px) {
+        max-width: 1100px;
+    }
+`;
+
+export const CardsContainerMobile = styled.div`
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
@@ -35,7 +50,7 @@ export const CardsContainer = styled.div`
     }
 
     @media only screen and (max-width: 1200px) {
-        max-width: 950px;
+        max-width: 920px;
     }
 
     @media only screen and (max-width: 1130px) {
@@ -61,8 +76,8 @@ export const CardsContainer = styled.div`
 
 export const Card = styled.div`
     height: 400px;
-    width: 290px;
-    max-width: 290px;
+    //width: 200px;
+    max-width: 280px;
     width: 290px;
     display: flex;
     border-radius: 30px;
@@ -70,9 +85,9 @@ export const Card = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px 25px;
+    //padding: 5px 5px;
     box-shadow: 0px 0px 10px rgba(68, 68, 68, 0.15);
-    margin: 20px;
+    margin: 15px;
     outline: none;
 
     @media only screen and (max-width: 1280px) {
