@@ -43,7 +43,7 @@ export const academyCardArr = [
     {
         icon: "/images/icons/presentation.svg",
         title: "Lekce",
-        text: "Zúčastníte se celkem 5 lekcí zaměřených na budování vašich technických dovedností v HTML, CSS, JavaScript a React.",
+        text: "Zúčastníte se celkem 6 lekcí zaměřených na budování vašich technických dovedností v HTML, CSS, JavaScript a React.",
     },
     {
         icon: "/images/icons/marathon.svg",
@@ -88,13 +88,13 @@ export const acadStudentArr = [
 
 export const acadPriceArr = [
     {
-        text: "5 lekcí programování",
+        text: "6 lekcí programování",
     },
     {
         text: "závěrečný workshop",   
     },
     {
-        text: "celkem 17 hodin vyučování",   
+        text: "celkem 24 hodin vyučování",   
     },
     {
         text: "online studijní materiály k akademii", 
@@ -171,7 +171,7 @@ export const acadQuestionsArr = [
     },
     {
         question: "Jak se můžu na kurz přihlásit? ",
-        answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform" target="blank">ZDE</LinkA> a vyplnit registrační formulář. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
+        answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSexxSmveb6lXC5W6nlrfiSPzf2QPlGZIU1cVF1EJR7rD64o3w/viewform" target="blank">ZDE</LinkA> a vyplnit registrační formulář. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
     },
     {
         question: "Jak bude Akademie probíhat? ",

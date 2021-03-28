@@ -47,6 +47,9 @@ function Sponsor() {
                         <a href="https://www.puntoverde.cz/" target="blank">
                             <SponsorImg src="/images/sponsors/puntoverde.png"/>
                         </a>
+                        <a href="https://fokusindustry.cz/" target="blank">
+                            <SponsorImg src="/images/sponsors/fokus-logo.jpg"/>
+                        </a>
                     </SponsorImgContainer>
                 </CommunitySponsorship>  
             </SponsorContainer>
