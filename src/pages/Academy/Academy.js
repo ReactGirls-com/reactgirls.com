@@ -24,7 +24,7 @@ import { Program }  from '../../components';
 
 function Academy({showProgramTable, showNewsletter}) {
     /* show or hide ProgramTable*/
-    showProgramTable = false;  
+    showProgramTable = true;  
     showNewsletter = true; 
     return (
         <>
