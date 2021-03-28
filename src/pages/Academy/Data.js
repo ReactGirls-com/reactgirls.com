@@ -38,17 +38,17 @@ export const academyCardArr = [
     {
         icon: "/images/icons/profesional.svg",
         title: "Profesionály",
-        text: "Lektoři jsou profesionálové v IT oboru a mají bohaté zkušenosti. Vybrali jsme pro vás ty nejlepší.",
+        text: "Vybrali jsme pro vás ty nejlepší lektory, kteří jsou profesionálové v IT oboru a mají bohaté zkušenosti.",
     },
     {
         icon: "/images/icons/presentation.svg",
         title: "Lekce",
-        text: "Celkem 5 lekcí zaměřených na budování vašich technických dovedností v HTML, CSS, JavaScript a React.",
+        text: "Zúčastníte se celkem 5 lekcí zaměřených na budování vašich technických dovedností v HTML, CSS, JavaScript a React.",
     },
     {
         icon: "/images/icons/marathon.svg",
         title: "Hackathon",
-        text: "Závěrečný  hackathon, kde si získané znalosti ověříte v praxi. Získáte od nás certifikát o absolvování akademie.",
+        text: "Budete součástí závěrečného hackathonu, kde si získané znalosti ověříte v praxi. Získáte od nás i certifikát o absolvování akademie.",
     },
     {
         icon: "/images/icons/interview.svg",
@@ -58,7 +58,7 @@ export const academyCardArr = [
     {
         icon: "/images/icons/call.svg",
         title: "Online lekce",
-        text: "V případě nařízení karantény přesuneme všechny lekce do online prostředí a vy tak o nic nepříjdete!",
+        text: "V případě nařízení karantény přesuneme všechny lekce do online prostředí a vy tak o nic nepřijdete!",
     },
 ];
 
@@ -77,18 +77,18 @@ export const acadStudentArr = [
     {
         icon: "/images/icons/victory.svg",
         heading: "Začátečnicím",
-        text: "Začatečnicím, které mají základní nebo žádné zkušenosti s programováním a chtěly by se seznámit se s HTML, CSS, JavaScriptem a Reactem.",
+        text: "Začátečnicím, které mají základní nebo žádné zkušenosti s programováním a chtěly by se seznámit se s HTML, CSS, JavaScriptem a Reactem.",
     },
     {
         icon: "/images/icons/woman3.svg",
         heading: "Ženám",
-        text: "Ženám, které se chtějí naučit frontendové programování a vyzkoušet si získané znalosti v praxi. Zároveň si vyzkoušet případné mock interview.",
+        text: "Ženám, které se chtějí naučit frontendové programování a vyzkoušet si získané znalosti v praxi. Zároveň si vyzkouší případné mock interview.",
     }
 ];
 
 export const acadPriceArr = [
     {
-        text: "4 lekce programování",
+        text: "5 lekcí programování",
     },
     {
         text: "závěrečný workshop",   
@@ -106,7 +106,7 @@ export const acadPriceArr = [
         text: "tričko ReactGirls",  
     },
     {
-        text: "možnost vyzkoušet si mock interview", 
+        text: "možnost vyzkoušet si mock interview s HR", 
     }
 ];
 
@@ -161,7 +161,7 @@ export const acadQuestionsArr = [
     },
     {
         question: "Jak bude Akademie probíhat? ",
-        answer: <>Akademie bude probíhat prezenčně nebo online, materiály budou k dispozici na Slacku, Notionu a Google Disku. Pokud je Akademie aktivní, v harmonogramu <LinkScroll
+        answer: <>Akademie bude probíhat prezenčně, nebo online. Materiály budou k dispozici na Slacku, Notionu a Google Disku. Pokud je Akademie aktivní, v harmonogramu <LinkScroll
         to="program"
         smooth={true}
         duration='700'
@@ -172,7 +172,7 @@ export const acadQuestionsArr = [
     },
     {
         question: "Co si z Akademie odnesu? ",
-        answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Reálnou zkušenost s Reactem, motivaci, možnost vyzkoušet si interview se zkušeným HR, certifikát o absolvování a merch ReactGirls. Ale hlavně si odneseš skvělé strávený čas se super partou!",
+        answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Získáš reálnou zkušenost s Reactem a motivaci do dalšího seberozvoje. Budeš mít možnost si vyzkoušet interview se zkušeným HR a dostaneš certifikát o absolvování Akademie a ReactGirls merch. Odneseš si i skvělé strávený čas se super partou!",
     },
     {
         question: "Kde se bude Akademie konat? ",
@@ -188,7 +188,7 @@ export const processArrAcad = [
     {
         number: 1,
         heading: "REGISTRACE",
-        text: "V případě, že je momentálně otevřené přihlašování na Akademii, pod cenou Akademie je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření další Akademie dozvíš.",
+        text: "V případě, že je momentálně otevřené přihlašování na Akademii, klikni níže na tlačítko REGISTRACE. Pokud aktuálně není registrace otevřena, můžeš odebírat náš Newsletter, kde se o startu dalšího běhu Akademie v předstihu dozvíš.",
         reversed: false,
         last: false,
         first: true
@@ -196,7 +196,7 @@ export const processArrAcad = [
     {
         number: 2,
         heading: "VYPLŇ FORMULÁŘ",
-        text: "Po kliknutí na tlačítko REGISTRACE se objeví formulář, ten vyplň a nezapomeň vyplnit motivaci, vybíráme i na základě té. Přihlásit se je možné dokud se nám nezaplní kapacita, proto s přihlašováním neváhej!",
+        text: "Po kliknutí na tlačítko REGISTRACE se objeví formulář. Při vyplňování nezapomeň zejména na popsání své motivace. Kapacita Akademie je omezená, proto s přihlašováním neváhej!",
         reversed: true,
         last: false,
         first: false
@@ -212,7 +212,7 @@ export const processArrAcad = [
     {
         number: 4,
         heading: "ZAČÍNÁME",
-        text: "Konkrétní informace na co se připravit na jednotlivé hodiny zasíláme pár dní před každou lekcí.",
+        text: "Konkrétní informace k přípravě na jednotlivé hodiny zasíláme pár dní před každou lekcí.",
         reversed: true,
         last: true,
         first: false

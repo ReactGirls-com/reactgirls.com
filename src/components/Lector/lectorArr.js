@@ -26,14 +26,14 @@ const lectorArr = [
         lectorImg: "/images/lectors/braňo.jpeg",
         lectorName: "Branislav Benčík",
         lectorJob: <>UX Designer & Front-End <br/>React Developer</>,
-        lectorCompany: "Applifting Česko",
+        lectorCompany: "Applifting",
         lectorLinkedIn: "https://cz.linkedin.com/in/branislavbencik",
     },
     {
         lectorImg: "/images/lectors/zuzkastav-1.png",
         lectorName: "Zuzana Stavjaňová",
         lectorJob: "React Developer",
-        lectorCompany: "Carvago.com",
+        lectorCompany: "Carvago",
         lectorLinkedIn: "https://www.linkedin.com/today/author/zuzanastavjanova",  
     },
     {
@@ -47,7 +47,7 @@ const lectorArr = [
         lectorImg: "/images/lectors/richard.jpg",
         lectorName: "Riki Fridrich",
         lectorJob: "Javascript Developer",
-        lectorCompany: "Mall.cz",
+        lectorCompany: "Mall",
         lectorLinkedIn: "https://www.linkedin.com/in/fczbkk",
     },   
     {
@@ -103,7 +103,7 @@ const lectorArr = [
         lectorImg: "/images/lectors/lenak.jpg",
         lectorName: "Lena Kirichok",
         lectorJob: "Back-End Developer",
-        lectorCompany: "Zásilkovna s.r.o.",
+        lectorCompany: "Zásilkovna",
         lectorLinkedIn: "https://www.linkedin.com/in/lena-k-14b891aa/",
     },
     {
@@ -131,7 +131,7 @@ const lectorArr = [
         lectorImg: "/images/lectors/kamilam.jpg",
         lectorName: "Kamila Macháčová",
         lectorJob: "HR",
-        lectorCompany: " ",
+        lectorCompany: "Applifting",
         lectorLinkedIn: "https://www.linkedin.com/in/kamilamach%C3%A1%C4%8Dov%C3%A1/",
     },
     {
