@@ -8,8 +8,8 @@ export const heroObjThree = {
     buttonText: "ODEBÍRAT NEWSLETTER",
     img: "/images/gallery/academy.jpg",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
-    showNewsletter: true,
-    showLogInButton: false,
+    showNewsletter: false,
+    showLogInButton: true,
     
 };
 
@@ -114,37 +114,51 @@ export const acadPriceArr = [
 
 export const programArr1 = [
     {
-        date: "5.října 2020", 
+        date: "19.dubna 2021", 
         topic: "HTML & CSS",
-        time: "17:00 - 20:00",
+        time: "17:30 - 20:30",
         place: "online",
         border: true
     },
     {
-        date: "5.října 2020", 
+        date: "22.dubna 2021", 
         topic: "Úvod do programování",
-        time: "17:00 - 20:00",
+        time: "17:30 - 20:30",
         place: "online",
         border: true
     },
     {
-        date: "5.října 2020", 
+        date: "26.dubna 2021", 
         topic: "JavaScript",
-        time: "17:00 - 20:00",
+        time: "17:30 - 20:30",
         place: "online",
         border: true
     },
     {
-        date: "5.října 2020", 
-        topic: "React",
-        time: "17:00 - 20:00",
+        date: "29.dubna 2021", 
+        topic: "React #1",
+        time: "17:30 - 20:30",
         place: "online",
         border: true
     },
     {
-        date: "5.října 2020",
-        topic: "Hackathon, pivo",
-        time: "17:00 - 20:00",
+        date: "3.května 2021", 
+        topic: "React #2",
+        time: "17:30 - 20:30",
+        place: "online",
+        border: true
+    },
+    {
+        date: "6.května 2021",
+        topic: "Node.js - jen pro nadšence",
+        time: "17:30 - 20:30",
+        place: "online",
+        border: true
+    },
+    {
+        date: "8.května 2021", 
+        topic: "Hackathon",
+        time: "Celodenní",
         place: "online",
         border: false
     },

@@ -66,21 +66,12 @@ function Hero({
                             </ImgContainer>
                             }
                             <SubtitleHero > {subtitle} </SubtitleHero>
-                               {/*<Newsletter /> */} 
                             {showNewsletter &&
                               <Newsletter />
                             }
-                            {showLogInButton &&
-                            <Link to='price'
-                            smooth={true}
-                            duration='700'
-                            spy={true}
-                            exact='true'
-                            offset={-80}
-                            >
-                              <ButtonHero>MÁM ZÁJEM</ButtonHero>
-                            </Link>
-                            }   	
+                            {showLogInButton && 
+                              <ButtonHero><a href="https://docs.google.com/forms/d/e/1FAIpQLSexxSmveb6lXC5W6nlrfiSPzf2QPlGZIU1cVF1EJR7rD64o3w/viewform" target="_blank">Registrace</a></ButtonHero>
+                            }
                         </TitleContainer>
                         { !isBreakpoint && 
                         <ImgContainer>
