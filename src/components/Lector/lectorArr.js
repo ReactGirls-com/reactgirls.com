@@ -131,7 +131,7 @@ const lectorArr = [
         lectorImg: "/images/lectors/kamilam.jpg",
         lectorName: "Kamila Macháčová",
         lectorJob: "HR",
-        lectorCompany: "Applifting",
+        lectorCompany: "",
         lectorLinkedIn: "https://www.linkedin.com/in/kamilamach%C3%A1%C4%8Dov%C3%A1/",
     },
     {
