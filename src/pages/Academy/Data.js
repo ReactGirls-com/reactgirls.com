@@ -8,8 +8,8 @@ export const heroObjThree = {
     buttonText: "ODEBÍRAT NEWSLETTER",
     img: "/images/gallery/academy.jpg",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
-    showNewsletter: true,
-    showLogInButton: false,
+    showNewsletter: false,
+    showLogInButton: true,
     
 };
 
@@ -150,14 +150,14 @@ export const programArr1 = [
     },
     {
         date: "6.května 2021",
-        topic: "Node.js jen pro nadšence",
+        topic: "Node.js - jen pro nadšence",
         time: "17:30 - 20:30",
         place: "online",
         border: true
     },
     {
         date: "8.května 2021", 
-        topic: "Hackaton",
+        topic: "Hackathon",
         time: "Celodenní",
         place: "online",
         border: false

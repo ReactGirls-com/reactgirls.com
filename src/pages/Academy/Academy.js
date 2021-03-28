@@ -25,7 +25,7 @@ import { Program }  from '../../components';
 function Academy({showProgramTable, showNewsletter}) {
     /* show or hide ProgramTable*/
     showProgramTable = true;  
-    showNewsletter = true; 
+    showNewsletter = false; 
     return (
         <>
             <Hero {...heroObjThree} />

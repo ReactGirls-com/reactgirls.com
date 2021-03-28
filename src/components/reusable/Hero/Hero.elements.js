@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import  { breakpoints, sizes } from '../../../variables';
+import  { breakpoints, sizes, colors } from '../../../variables';
 import { TitleLeft, Subtitle, Button } from '../styled';
 
 export const HeroWrapper = styled.div`
@@ -42,6 +42,11 @@ export const HeroTitle = styled(TitleLeft)`
 
 export const ButtonHero = styled(Button)`
     max-width: 180px;
+    text-transform: uppercase;
+    > a {
+        color: ${colors.white};
+        text-decoration: none;
+    }
 `;
 
 export const TitleContainer = styled.div`
