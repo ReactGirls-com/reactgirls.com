@@ -24,7 +24,7 @@ export const mentPrice = {
 }
 
 export const infoObjOne = {
-    text: "Přihlaš se do Mentoringu ReactGirls a získej kouče, který tě bude mentorovat a rozvíjet tvé technické dovednosti.",
+    text: "Přihlaš se do Mentoringu ReactGirls a získej kouče, který tě bude provázet na ceste k rozvoji tvých technických dovedností.",
     content: "mentoring",
 }
 
@@ -32,32 +32,32 @@ export const mentoringCardArr = [
     {
         icon: "/images/icons/week.svg",
         title: "Týdenní setkávání",
-        text: "Pravidelná týdenní setkávání po dobu 3 měsíců, mentorování a tvorba projektu, code review.",
+        text: "Pravidelná týdenní setkávání s mentorem, který tě během 3 měsíců a provede tvorbou projektu a code review.",
     },
     {
         icon: "/images/icons/coach.svg",
         title: "Koučové k dispozici",
-        text: "Na horké lince k dispozici další koučové, kteří ti poradí.",
+        text: "K dispozici na horké lince budeš mít i další kouče-specialisty z rozdílných oblastí, kteří ti poradí.",
     },
     {
         icon: "/images/icons/flexible.svg",
         title: "Flexibilita",
-        text: "Forma setkávání online i offline, dle tvých časových možností.",
+        text: "Můžeš si vybrat formu setkávání, ať už online, nebo offline, a to dle tvých časových možností.",
     },
     {
         icon: "/images/icons/feedback.svg",
         title: "Feedback",
-        text: "Závěrečné zhodnocení a feedback od mentora.",
+        text: "Na závěr mentoringu získáš závěrečné zhodnocení a feedback od mentora.",
     },
     {
         icon: "/images/icons/interview.svg",
         title: "Mock interview",
-        text: "Po absolvování mentoringu možnost vyzkoušet si mock interview se zkušeným HR.",
+        text: "Po absolvování mentoringu budeš mít jedinečnou možnost vyzkoušet si mock interview se zkušeným HR.",
     },
     {
         icon: "/images/icons/certificate.svg",
         title: "Certifikát",
-        text: "Certifikát o absolvování mentoringu a ReactGirls merch.",
+        text: "Obdržíš certifikát o absolvování mentoringu a ReactGirls merch.",
     },
 ];
 
@@ -90,7 +90,7 @@ export const mentPriceArr = [
         text: "mentor po dobu 3 měsíců",
     },
     {
-        text: "pravidelná týdenní setkávání",
+        text: "pravidelná týdenní setkávání s mentorem",
     },
     {
         text: "plánování agendy", 
@@ -105,14 +105,14 @@ export const mentPriceArr = [
         text: "možnost prezentace vytvořeného projektu",  
     },
     {
-        text: "mock interview",  
+        text: "mock interview s HR",  
     },
 ];
 
 export const mentQuestionsArr = [
     {
         question: "Pro koho je Mentoring určen?",
-        answer: "Začatečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, případně JS a chtěly by je posunout na další úroveň s Reactem.",
+        answer: "Začátečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, případně JS, a chtěly by je posunout na další úroveň s Reactem.",
     },
     {
         question: "Jak se můžu na Mentoring přihlásit?",
@@ -120,7 +120,7 @@ export const mentQuestionsArr = [
     },
     {
         question: "Co si z Mentoringu odnesu?",
-        answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Reálnou zkušenost s Reactem, motivaci, možnost vyzkoušet si interview se zkušeným HR, Certifikát o absolvování Mentoringu a ReactGirls merch.",
+        answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Získáš reálnou zkušenost s Reactem a motivaci do dalšího seberozvoje. Budeš mít možnost si vyzkoušet interview se zkušeným HR a dostaneš certifikát o absolvování Mentoringu a ReactGirls merch.",
     },
     {
         question: "Stále si nejsi jistá?",
@@ -132,7 +132,7 @@ export const processArrMent = [
     {
         number: 1,
         heading: "REGISTRACE",
-        text: "V případě, že je momentálně otevřené přihlašování na Mentoring, pod cenou Mentoringu je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření dalšího Mentoringu dozvíš.",
+        text: "V případě, že je momentálně otevřené přihlašování na Mentoring, klikni níže na tlačítko REGISTRACE. Pokud aktuálně není registrace otevřena, můžeš odebírat náš Newsletter, kde se o startu dalšího běhu Mentoringu v předstihu dozvíš.",
         reversed: false,
         last: false,
         first: true
@@ -140,7 +140,7 @@ export const processArrMent = [
     {
         number: 2,
         heading: "VYPLŇ FORMULÁŘ",
-        text: "Po kliknutí na tlačítko REGISTRACE se objeví formulář, ten vyplň a nezapomeň zejména na vyplnění motivace a přiložení odkazu na GitHub či jiné úložiště tvých kódů.",
+        text: "Po kliknutí na tlačítko REGISTRACE se objeví formulář. Při vyplňování nezapomeň zejména na popsání své motivace a přiložení odkazu na GitHub či jiné úložiště tvých kódů.",
         reversed: true,
         last: false,
         first: false
@@ -148,7 +148,7 @@ export const processArrMent = [
     {
         number: 3,
         heading: "KONTAKTUJEME TĚ",
-        text: "Před spuštěním běhu tě budeme kontaktovat a sdělíme ti, zda jsme vybrali právě tebe. Pošleme ti taky všechny potřebné informace o mentoringovém programu společně s informacemi o platbě.",
+        text: "Před spuštěním běhu tě budeme kontaktovat a sdělíme ti, zda jsme tě do Mentoringu zaradili. Pošleme ti taky všechny potřebné informace o programu a platbě.",
         reversed: false,
         last: true,
         first: false

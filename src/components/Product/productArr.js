@@ -5,7 +5,7 @@ import { LinkA, LinkScroll } from '../reusable/styled';
 const productArr = [ 
     {
         title: "Komunita",
-        info: <>ReactGirls je komunita lidí, které spojuje láska k technologiím a programování. Pomáháme ženám, které se chtějí stát programátorkami za vedení profesionálních lektorů a mentorů. Zapojte se do naší komunity na sociálních sítích.</>,
+        info: <>ReactGirls je komunita, kterou spojuje láska k technologiím a programování. Spolu s profesionálními lektory a mentory pomáháme ženám, které se chtějí stát programátorkami. Zapojte se do naší komunity na sociálních sítích.</>,
         hideButton: false,
         buttonText: "Zjistit více",
         img: "images/products/community.jpg",
@@ -17,7 +17,7 @@ const productArr = [
     {
         title: "Workshopy",
         info: 
-            <>Pořádáme pravidelné workshopy plné programování a přednášek na nejen technická témata. Naučíme vás základy HTML, CSS, Javascriptu a Reactu. Další workshop momentálně připravujeme, pro bližší informace sledujte naše sociální sítě nebo odebírejte náš  <LinkScroll 
+            <>Pořádáme pravidelné workshopy plné programování a přednášek nejen na technická témata. Naučíme vás základy HTML, CSS, Javascriptu a Reactu.  Bližší informace najdete na sociálních sítích ReactGirls nebo odebírejte náš  <LinkScroll 
                     to="newsletterHero"
                     smooth={true}
                     duration='700'
@@ -34,7 +34,7 @@ const productArr = [
     },
     {
         title: "Webináře",
-        info: <>Pořádáme webináře související s programováním v Reactu, soft tématy o práci a rekvalifikaci v IT. Některé z webinářů je možné shlédnout na našem <LinkA href="https://www.youtube.com/channel/UCO8WGBzS6J00zlXroeTf90g" target="blank">Youtube</LinkA>. O dalších se dozvíte v <LinkScroll 
+        info: <>Nenechte si ujít webináře nejen na o programováním v Reactu. Věnujeme se i dalším tématům spojeným s prací a rekvalifikací v IT. Některé z webinářů můžete shlédnout na našem <LinkA href="https://www.youtube.com/channel/UCO8WGBzS6J00zlXroeTf90g" target="blank">Youtube</LinkA>. O dalších se dozvíte prostřednictvím <LinkScroll 
         to="newsletterHero"
         smooth={true}
         duration='700'
@@ -42,7 +42,7 @@ const productArr = [
         exact='true'
         offset={-80}
         >Newsletteru </LinkScroll> 
-        a na ostatních sociálních sítích.</>,
+        a sociálních sítích.</>,
         hideButton: true,
         img: "images/products/webinar.jpg",
         imgStart: false,
@@ -51,7 +51,7 @@ const productArr = [
     },
     {
         title: "Mentoring", 
-        info: "Vyzkoušejte si náš jedinečný mentoringový program. Mentor vede mentee během tří měsíců k tvorbě komplexního webového projektu zvoleného podle cílu mentee a předává ji tak užitečné know-how. Na konci je mentee připravena sama zvládnout tvorbu dalších projektů v Reactu.",
+        info: "Vyzkoušejte si náš jedinečný mentoringový program. Během tří měsíců vás zkušený mentor provede tvorbou komplexního webového projektu zvoleného podle vašich kariérních cílu. Předává vám tak profesionální know-how. Na konci je mentee připravena sama zvládnout tvorbu dalších projektů v Reactu.",
         hideButton: false,
         buttonText: "Zjistit více",
         img: "images/products/mentoring.jpg",
@@ -62,7 +62,7 @@ const productArr = [
     },
     {
         title: "Akademie",
-        info: "ReactGirls Akademie je program určený pro začátečnice, které se chtějí seznámit s komplexním frontendovým programováním. Od kódování webové aplikace v HTML a CSS, přes seznámení se s principy programování v JavaScriptu, až po první krůčky s Reactem.",
+        info: "ReactGirls Akademie je program určený pro začátečnice, které se chtějí seznámit s komplexním frontendovým programováním. Provedeme vás tím nejdůležitějším: od kódování webové aplikace v HTML a CSS přes seznámení se s principy programování v JavaScriptu až po první krůčky s Reactem.",
         hideButton: false,
         buttonText: "Zjistit více",
         img: "images/products/academy.jpg",
@@ -73,7 +73,7 @@ const productArr = [
     },
     {
         title: "Meetupy",
-        info: "Pořádáme pro Vás pravidelné ReactGirls meetupy pod názvem ReactGirls Beer. Na meetupech se kromě seznámení se s komunitou můžete také těšit na zajímavé přednášky jak ze světa technologií, tak i na mnoho dalších aktuálních témat.",
+        info: "Pořádáme pro vás i pravidelné ReactGirls meetupy pod názvem ReactGirls Beer. Na společných setkáních se kromě seznámení s komunitou můžete také těšit na zajímavé přednášky jak ze světa technologií, tak i na aktuální témata, která hýbou IT světem.",
         hideButton: true,
         img: "images/products/meetup.jpg",
         imgStart: true,

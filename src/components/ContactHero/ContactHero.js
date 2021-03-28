@@ -17,8 +17,7 @@ function ContactHero() {
                 <ContactHeroContainer className={navLogo ? 'active' : ''}>
                     <ContactHeroTitle>Jak nás můžeš kontaktovat?</ContactHeroTitle>
                     <ContactInfo>
-                        Napiš nám přes sociální sítě nebo nás kontaktuj na e-mail.
-                        Můžeš také odebírat náš Newsletter a my tě budeme o všem informovat.
+                        Napiš nám přes Slack, ostatní sociální sítě nebo nás kontaktuj přímo. Můžeš také odebírat náš newsletter.
                     </ContactInfo>
                     <Newsletter />
                 </ContactHeroContainer>
