@@ -13,8 +13,10 @@ import {
     PriceRectangle,
     PriceArea,
     PriceWrapper,
-    TitlePrice
+    TitlePrice,
+    RegisterWrapper,
 } from './Price.elements';
+import { RegisterButton } from '../Hero/RegisterButton';
 
 function Price({mainPriceTitle, data, price, form, showLogInButton, showNewsletter, showBorderBottom }) {
     return (
@@ -36,9 +38,10 @@ function Price({mainPriceTitle, data, price, form, showLogInButton, showNewslett
                             )
                         })
                         } 
-                        {showLogInButton &&
-                        <ButtonPrice href={form} target="blank" >REGISTRACE</ButtonPrice>
-                        }
+
+                        <RegisterWrapper>
+                        <RegisterButton showLogInButton={showLogInButton} />
+                        </RegisterWrapper>
                     </PriceContainer> 
                     </PriceRectangle> 
                 </PriceWrapper> 

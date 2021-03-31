@@ -12,6 +12,7 @@ import {
     ButtonHero,
  } from './Hero.elements';
  import Newsletter from '../Newsletter/Newsletter';
+ import { RegisterButton } from './RegisterButton';
 
 import { Container, Wrapper } from '../styled';
 
@@ -69,9 +70,7 @@ function Hero({
                             {showNewsletter &&
                               <Newsletter />
                             }
-                            {showLogInButton && 
-                              <ButtonHero><a href="https://docs.google.com/forms/d/e/1FAIpQLSexxSmveb6lXC5W6nlrfiSPzf2QPlGZIU1cVF1EJR7rD64o3w/viewform" target="_blank">Registrace</a></ButtonHero>
-                            }
+                            <RegisterButton showLogInButton={showLogInButton} />
                         </TitleContainer>
                         { !isBreakpoint && 
                         <ImgContainer>

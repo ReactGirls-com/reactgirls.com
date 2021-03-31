@@ -118,3 +118,9 @@ export const PriceIconMain = styled.div`
 export const ButtonPrice = styled(Button)`
     margin-top: 45px;
 `;
+
+export const RegisterWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+`;

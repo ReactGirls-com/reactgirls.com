@@ -142,3 +142,6 @@ export const SubtitleHero = styled(Subtitle)`
 
 `;
 
+export const StyledLink = styled.a`
+    text-decoration: none;
+`;

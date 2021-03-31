@@ -36,7 +36,7 @@ function Academy({showProgramTable, showNewsletter}) {
             <InfoCards data={academyCardArr} {...titleObjTwo} />
             <Student data={acadStudentArr} {...titleObjTwo} />
             <Process data={processArrAcad} />
-            <Price data={acadPriceArr} {...titleObjTwo} {...acadPrice} />
+            <Price data={acadPriceArr} {...titleObjTwo} {...acadPrice} {... heroObjThree} />
             {showNewsletter &&
             <NewsletterSection/>
             }
