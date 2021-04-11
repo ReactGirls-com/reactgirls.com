@@ -7,6 +7,7 @@ import {
     ImgContainer,
     HeroImg,
     SubtitleHero,
+    AcademyStatusInfo,
     HeroWrapper,
     HeroTitle, 
     ButtonHero,
@@ -20,6 +21,7 @@ import { Container, Wrapper } from '../styled';
 function Hero({
     title,
     subtitle,
+    academyStatusInfo,
     buttonText,
     img,
     form,
@@ -66,7 +68,8 @@ function Hero({
                                 <HeroImg src={img} />
                             </ImgContainer>
                             }
-                            <SubtitleHero > {subtitle} </SubtitleHero>
+                            <SubtitleHero>{subtitle}</SubtitleHero>
+                            <AcademyStatusInfo>{academyStatusInfo}</AcademyStatusInfo>
                             {showNewsletter &&
                               <Newsletter />
                             }

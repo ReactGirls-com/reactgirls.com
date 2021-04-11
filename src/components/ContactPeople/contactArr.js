@@ -2,7 +2,7 @@ const contactArr = [
     {
         photo: "/images/lectors/Terka.jpg",
         name: "Tereza Vaňková",
-        interest: "ReactGirls zakladatelka",
+        interest: "Co-Founder & CEO",
         mail: "tereza@reactgirls.com",
         phone: "+420 737 611 231",
         linkedIn: "https://www.linkedin.com/in/tereza-vankova/",
@@ -14,7 +14,7 @@ const contactArr = [
     {
         photo: "/images/lectors/simca.jpg",
         name: "Simona Töröková",
-        interest: "Organizátorka Mentoringu",
+        interest: "Co-Founder & Product Owner",
         mail: "simca@reactgirls.com",
         linkedIn: "https://www.linkedin.com/in/simona-t%C3%B6r%C3%B6kov%C3%A1-31baa211a/?originalSubdomain=cz",
         hideFacebook: true, 
@@ -23,9 +23,16 @@ const contactArr = [
     {
         photo: "/images/lectors/zuzkastav-1.png",
         name: "Zuzana Stavjaňová",
-        interest: "Organizátorka",
+        interest: "Co-Founder & CTO",
         mail: "zuzka@reactgirls.com",
         linkedIn: "https://www.linkedin.com/today/author/zuzanastavjanova",
+        hideFacebook: true, 
+        hideTwitter: true,  
+    },
+    {
+        photo: "/images/lectors/castan.png",
+        name: "Kaštan",
+        interest: "Head of cuddling",
         hideFacebook: true, 
         hideTwitter: true,  
     },
