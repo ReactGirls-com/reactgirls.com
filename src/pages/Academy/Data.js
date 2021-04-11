@@ -4,12 +4,13 @@ import { LinkA, LinkScroll } from '../../components/reusable/styled';
 
 export const heroObjThree = {
     title: "Zúčastni se intenzivní Akademie s ReactGirls!",
-    subtitle: "#ReactGirlsPrague",
+    subtitle: "Další akademii pro vás připravujeme na podzim 2021.",
+    academyStatusInfo: "Na duben již máme bohužel plno.",
     buttonText: "ODEBÍRAT NEWSLETTER",
     img: "/images/gallery/academy.jpg",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
-    showNewsletter: false,
-    showLogInButton: true,
+    showNewsletter: true,
+    showLogInButton: false,
     
 };
 
@@ -166,12 +167,12 @@ export const programArr1 = [
 
 export const acadQuestionsArr = [
     {
-        question: "Pro koho je kurz určen?",
+        question: "Pro koho je akademie určen?",
         answer: "Kurz je určen pro všechny ženy, které mají základní zkušenosti s programováním a mají zájem se naučit programovat v Reactu.",
     },
     {
-        question: "Jak se můžu na kurz přihlásit? ",
-        answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSexxSmveb6lXC5W6nlrfiSPzf2QPlGZIU1cVF1EJR7rD64o3w/viewform" target="blank">ZDE</LinkA> a vyplnit registrační formulář. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
+        question: "Jak se můžu na akademii přihlásit? ",
+        answer: <>Jakmile bude otevřeno přihlašování na akademii, tak zde bude link na registrační formulář, který stačí jen vyplnit. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
     },
     {
         question: "Jak bude Akademie probíhat? ",

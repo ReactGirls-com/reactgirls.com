@@ -132,14 +132,21 @@ export const HeroImg = styled.img`
  `;
 
 export const SubtitleHero = styled(Subtitle)`
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 20px;
     
     @media only screen and (max-width: 1250px) { 
         margin-bottom: 30px;
         margin-top: 30px;
     }
+`;
 
+export const AcademyStatusInfo = styled.div`
+    margin-bottom: 30px;
+    
+    @media only screen and (max-width: 1250px) { 
+        margin-bottom: 30px;
+    }
 `;
 
 export const StyledLink = styled.a`
