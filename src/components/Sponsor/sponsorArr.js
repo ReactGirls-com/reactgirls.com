@@ -60,6 +60,9 @@ export const sponsorArrCommunity = [
         sponsorship: "community",
         link: "https://www.puntoverde.cz/"
     },
+    {
+        logo: "/images/sponsors/satoshilabs.png",
+        sponsorship: "community",
+        link: "https://satoshilabs.com"
+    },
 ]
-
-

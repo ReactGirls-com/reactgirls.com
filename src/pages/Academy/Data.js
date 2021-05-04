@@ -5,7 +5,7 @@ import { LinkA, LinkScroll } from '../../components/reusable/styled';
 export const heroObjThree = {
     title: "Zúčastni se intenzivní Akademie s ReactGirls!",
     subtitle: "Další akademii pro vás připravujeme na podzim 2021.",
-    academyStatusInfo: "Na duben již máme bohužel plno.",
+    academyStatusInfo: "",
     buttonText: "ODEBÍRAT NEWSLETTER",
     img: "/images/gallery/academy.jpg",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",

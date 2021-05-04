@@ -50,6 +50,9 @@ function Sponsor() {
                         <a href="https://fokusindustry.cz/" target="blank">
                             <SponsorImg src="/images/sponsors/fokus-logo.jpg"/>
                         </a>
+                        <a href="https://satoshilabs.com" target="blank">
+                            <SponsorImg src="/images/sponsors/fsatoshilabs.jpg"/>
+                        </a>
                     </SponsorImgContainer>
                 </CommunitySponsorship>  
             </SponsorContainer>
