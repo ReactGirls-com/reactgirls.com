@@ -51,7 +51,7 @@ function Sponsor() {
                             <SponsorImg src="/images/sponsors/fokus-logo.jpg"/>
                         </a>
                         <a href="https://satoshilabs.com" target="blank">
-                            <SponsorImg src="/images/sponsors/fsatoshilabs.jpg"/>
+                            <SponsorImg src="/images/sponsors/fsatoshilabs.png"/>
                         </a>
                     </SponsorImgContainer>
                 </CommunitySponsorship>  
