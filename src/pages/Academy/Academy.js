@@ -24,8 +24,8 @@ import { Program }  from '../../components';
 
 function Academy({showProgramTable, showNewsletter}) {
     /* show or hide ProgramTable*/
-    showProgramTable = true;  
-    showNewsletter = false; 
+    showProgramTable = false;  
+    showNewsletter = true; 
     return (
         <>
             <Hero {...heroObjThree} />
@@ -36,7 +36,7 @@ function Academy({showProgramTable, showNewsletter}) {
             <InfoCards data={academyCardArr} {...titleObjTwo} />
             <Student data={acadStudentArr} {...titleObjTwo} />
             <Process data={processArrAcad} />
-            <Price data={acadPriceArr} {...titleObjTwo} {...acadPrice} {... heroObjThree} />
+            {/* <Price data={acadPriceArr} {...titleObjTwo} {...acadPrice} {... heroObjThree} /> */}
             {showNewsletter &&
             <NewsletterSection/>
             }
