@@ -1,6 +1,6 @@
 export const sponsorArrGold = [
     {
-        logo: "images/sponsors/Livesport_logo_basic-300x66.png",
+        logo: "images/sponsors/livesport.png",
         sponsorship: "gold",
         link: "https://www.livesport.eu/"
     },
