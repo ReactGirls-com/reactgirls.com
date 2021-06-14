@@ -29,6 +29,9 @@ export const InfoButton = styled.button`
   padding: 4px 10px;
   border: 1px solid #fff;
   font-size: 12px;
+  :hover {
+      cursor: pointer;
+    }
 `;
 
 const Wrapper = styled.div`
