@@ -31,7 +31,7 @@ function Mentoring({showNewsletter}) {
             <InfoCards data={mentoringCardArr} {...titleObjOne} />
             <Student data={mentStudentArr} {...titleObjOne} />
             <Process data={processArrMent} />
-            <Price data={mentPriceArr} {...titleObjOne} {...mentPrice} />
+            {/* <Price data={mentPriceArr} {...titleObjOne} {...mentPrice} /> */}
             {showNewsletter &&
             <NewsletterSection/>
             }

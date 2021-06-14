@@ -67,7 +67,7 @@ export const Banner = ({ setShowBanner, showBanner }) => {
     <Wrapper>
       <p>
         Zajímá vás svět kryptoměn? Holky v kryptu ve spolupráci s ReactGirls vás
-        zvou na online přednásku Soni Parke.
+        zvou na online přednášku Soni Parke.
       </p>
       <div>
         <InfoButton
