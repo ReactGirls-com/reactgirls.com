@@ -19,6 +19,11 @@ export const sponsorArrGold = [
         sponsorship: "gold",
         link: "https://search.jobs.barclays/barclays-developers-prague"
     },
+    {
+        logo: "/images/sponsors/jigx.png",
+        sponsorship: "gold",
+        link: "https://jigx.com/"
+    },
 ]
 
 export const sponsorArrSilver = [
