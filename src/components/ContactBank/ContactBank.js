@@ -43,7 +43,7 @@ function ContactBank() {
                             <br />
                             Č. ú.: 2001890593/2010 
                             <br />
-                            IBAN: Z3020100000002001890593
+                            IBAN: CZ3020100000002001890593
                             <br />
                             BIC/SWIFT: FIOBCZPPXXX
                         </BankText>
