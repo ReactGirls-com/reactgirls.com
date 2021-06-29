@@ -102,9 +102,6 @@ function HeroHome({ img }) {
   return (
     <Container lightBlue>
       <Wrapper>
-        {/* {showBanner && (
-          <Banner showBanner={showBanner} setShowBanner={setShowBanner} />
-        )} */}
         <HeroHomeRow className={navLogo ? "active" : ""}>
           <HeroHomeColumn>
             <TextWrapperHome>

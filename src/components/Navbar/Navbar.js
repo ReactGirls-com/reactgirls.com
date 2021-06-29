@@ -28,7 +28,6 @@ function Navbar() {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
-  const [showBanner, setShowBanner] = useState(true);
 
   const useMediaQuery = (width) => {
     const [targetReached, setTargetReached] = useState(false);
@@ -62,16 +61,11 @@ function Navbar() {
         <Wrapper>
           <NavWrapper className={navLogo ? "active" : ""}>
             <Link exact to="/">
-              {!showBanner && (
                 <NavLogo
                   onClick={toggleHome}
                   src="/images/logo-blue.svg"
                   className={navLogo ? "active" : ""}
                 />
-              )}
-              {showBanner && (
-                <Banner showBanner={showBanner} setShowBanner={setShowBanner} />
-              )}
             </Link>
             <MobileIcon onClick={handleClick}>
               {click ? (
